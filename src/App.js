@@ -1,11 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{ useState, useEffect } from 'react';
 import './App.css';
+import NavBar from "./NavBar/NavBar";
+import ProductList from "./ProductList/ProductList";
+import Cart from "./Cart/Cart";
+import data from "./data";
 
-function App() {
+const App = () => {
+    const [products, setProduct] = useState([...data]);
+    const [keyword, setKeyword] = useState("");
+    useEffect(() => {
+        const results = data.filter(product => product.title.includes(keyword) || product.brand.includes(keyword));
+        setProduct(results);
+    }, [keyword]);
   return (
     <div className="App">
-      <p>Hello World!</p>
+        <NavBar setKeyword={setKeyword} />
+        <ProductList products={products} />
+        <Cart />
     </div>
   );
 }

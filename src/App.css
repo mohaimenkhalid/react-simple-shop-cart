@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.nav-bar {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.nav-bar input {
+  padding: .5rem;
+  margin-left: 1rem;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.product-list {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 65%;
+  justify-content: center;
+}
+
+.product{
+  margin: 10px;
+  border: 1px solid gray;
+  width: 250px;
+}
+
+.product .title ,
+.actions{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.product, .actions{
+  border-top: 1px solid gray;
+}
+
+.product .actions button {
+  background: #009900;
+  padding: .5rem;
   color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.product .actions button:hover{
+  background: #00a800;
+  border: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart{
+  display: flex;
+  flex: 0 0 29%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  height: 100vh;
 }
