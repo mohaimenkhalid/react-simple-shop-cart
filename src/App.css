@@ -66,10 +66,35 @@
 .cart{
   display: flex;
   flex: 0 0 29%;
-  justify-content: center;
-  align-items: center;
   border: 1px solid gray;
   height: 100vh;
   position: sticky;
   top: 50px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cart .cart-item {
+  display: flex;
+  margin: 5px;
+  border: 1px solid gray;
+  padding: .5rem;
+}
+
+.cart h4 {
+  text-align: center;
+}
+
+.cart-item button {
+  width: 30px;
+}
+.cart-item .info {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  padding: 5px;
 }
