@@ -89,9 +89,7 @@
   text-align: center;
 }
 
-.cart-item button {
-  width: 30px;
-}
+
 .cart-item .info {
   display: flex;
   flex: auto;
