@@ -29,11 +29,15 @@ const App = () => {
             }
         });
     }
+
+    const removeCartItem = (id) => {
+        setCartItems((items) => items.filter((item) => item.id !== id));
+    }
       return (
         <div className="App">
             <NavBar setKeyword={setKeyword} />
             <ProductList products={products} addToCart={addToCart} />
-            <Cart cartItems={cartItems}/>
+            <Cart cartItems={cartItems} removeCartItem={removeCartItem}/>
         </div>
       );
 }
