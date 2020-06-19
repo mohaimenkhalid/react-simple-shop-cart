@@ -1,11 +1,11 @@
 import React from "react";
 
-const CartItem = ( {title, price} ) => {
+const CartItem = ( {title, price, quantity} ) => {
   return (
       <div className="cart-item">
           <button>X</button>
           <div className="info">
-              <span>{title}</span>
+              <span>{title} X {quantity}</span>
               <span>{price}</span>
           </div>
       </div>
