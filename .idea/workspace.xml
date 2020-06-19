@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="acef1a1d-ef3f-4757-a542-3ca818153f85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/useCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart/Cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +62,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,6 +83,7 @@
       <workItem from="1591418183377" duration="965000" />
       <workItem from="1591419499245" duration="21268000" />
       <workItem from="1591898133828" duration="4279000" />
+      <workItem from="1592595033178" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="changes blade file">
       <created>1591419149150</created>
@@ -78,7 +103,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -88,5 +125,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes blade file" />
     <option name="LAST_COMMIT_MESSAGE" value="changes blade file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="685" y="292" width="615" height="407" key="#Notifications" timestamp="1592600645612">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="685" y="292" width="615" height="407" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1592600645612" />
+    <state x="301" y="74" key="SettingsEditor" timestamp="1592595570939">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592595570939" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1592600618810">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1592600618810" />
   </component>
 </project>
